@@ -36,6 +36,9 @@ https://github.com/firecracker-microvm/firecracker/blob/master/docs/rootfs-and-k
 how to setup network?
 https://github.com/firecracker-microvm/firecracker/blob/master/docs/network-setup.md
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTU4NTE4MiwxOTQ5NTg1MTgyXX0=
+eyJoaXN0b3J5IjpbMzA1OTc3NTk0LDE5NDk1ODUxODIsMTk0OT
+U4NTE4Ml19
 -->
