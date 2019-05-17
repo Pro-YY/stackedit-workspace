@@ -56,11 +56,16 @@ tar -zxvf nginx-1.16.0.tar.gz
 ./configure --with-http_v2_module --with-http_ssl_module
 make -j2
 make install
+
+cd /usr/local/nginx
+./sbin/nginx -V
+./sbin/nginx -t
+./sbin/nginx
 ```
 compile
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjc0MTI0MiwtMjE1ODc2NjczLC0xOT
-U3MjI1MzMxLC0xNjYzMzAwNjQ2LDIyMzA4MjQ2MSwxNTU2NTE5
-OTEyLC04NDcwMDA5MTYsMjEwMjIxMTIyMSwtMjY3Njk1NTY4XX
-0=
+eyJoaXN0b3J5IjpbMTQ2NzA1MDQyOSwxNDAyNzQxMjQyLC0yMT
+U4NzY2NzMsLTE5NTcyMjUzMzEsLTE2NjMzMDA2NDYsMjIzMDgy
+NDYxLDE1NTY1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC
+0yNjc2OTU1NjhdfQ==
 -->
