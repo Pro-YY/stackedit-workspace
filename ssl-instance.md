@@ -12,9 +12,10 @@ A record: t1.ezouqi.com
 
 3 证书申请
 
+centos 
 
 4 配置nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNj
-c2OTU1NjhdfQ==
+eyJoaXN0b3J5IjpbLTE3OTkwMDYzNDQsLTg0NzAwMDkxNiwyMT
+AyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
