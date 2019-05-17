@@ -67,10 +67,14 @@ compile
 
 v1.3 openssl
 
-``
+```
+wget https://www.openssl.org/source/openssl-1.1.1b.tar.gz
+tar -zxvf openssl-1.1.1b.tar.gz
+cd openssl-1.1.1b
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjg4OTM0NSwxNDY3MDUwNDI5LDE0MD
-I3NDEyNDIsLTIxNTg3NjY3MywtMTk1NzIyNTMzMSwtMTY2MzMw
-MDY0NiwyMjMwODI0NjEsMTU1NjUxOTkxMiwtODQ3MDAwOTE2LD
-IxMDIyMTEyMjEsLTI2NzY5NTU2OF19
+eyJoaXN0b3J5IjpbOTg2NDA0NjYsMTQ2NzA1MDQyOSwxNDAyNz
+QxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUzMzEsLTE2NjMzMDA2
+NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLTg0NzAwMDkxNiwyMT
+AyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
