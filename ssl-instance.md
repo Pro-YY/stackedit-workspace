@@ -79,7 +79,7 @@ install curl
 
 NOTE: but curl need ssl to be make and install to an seperate dir
 
-like: /root/install/
+like: configure with prefix=/root/install/ssl
 
 curl install
 
@@ -90,10 +90,10 @@ curl install
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY4NjQyOTAsMTE3MjgwNTE3NSwtOD
-k5ODI1MDAzLDQxOTIzNTMxNywtMTc0OTEzMDA2LDU3NDExMTY1
-MywtMTc4Mjg4ODI4MSw5ODY0MDQ2NiwxNDY3MDUwNDI5LDE0MD
-I3NDEyNDIsLTIxNTg3NjY3MywtMTk1NzIyNTMzMSwtMTY2MzMw
-MDY0NiwyMjMwODI0NjEsMTU1NjUxOTkxMiwtODQ3MDAwOTE2LD
-IxMDIyMTEyMjEsLTI2NzY5NTU2OF19
+eyJoaXN0b3J5IjpbMTg5OTE5MjEwNywxMTcyODA1MTc1LC04OT
+k4MjUwMDMsNDE5MjM1MzE3LC0xNzQ5MTMwMDYsNTc0MTExNjUz
+LC0xNzgyODg4MjgxLDk4NjQwNDY2LDE0NjcwNTA0MjksMTQwMj
+c0MTI0MiwtMjE1ODc2NjczLC0xOTU3MjI1MzMxLC0xNjYzMzAw
+NjQ2LDIyMzA4MjQ2MSwxNTU2NTE5OTEyLC04NDcwMDA5MTYsMj
+EwMjIxMTIyMSwtMjY3Njk1NTY4XX0=
 -->
