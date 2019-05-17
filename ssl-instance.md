@@ -53,10 +53,13 @@ nginx : 1.16.0 install
 wget http://nginx.org/download/nginx-1.16.0.tar.gz
 tar -zxvf nginx-1.16.0.tar.gz
 yum install gcc pcre-devel zlib-devel openssl-devel
+
+./configure --with-http_v2_module --with-http_ssl_module
 ```
 compile
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNTg3NjY3MywtMTk1NzIyNTMzMSwtMT
-Y2MzMwMDY0NiwyMjMwODI0NjEsMTU1NjUxOTkxMiwtODQ3MDAw
-OTE2LDIxMDIyMTEyMjEsLTI2NzY5NTU2OF19
+eyJoaXN0b3J5IjpbLTE5OTEwMjUyMzIsLTIxNTg3NjY3MywtMT
+k1NzIyNTMzMSwtMTY2MzMwMDY0NiwyMjMwODI0NjEsMTU1NjUx
+OTkxMiwtODQ3MDAwOTE2LDIxMDIyMTEyMjEsLTI2NzY5NTU2OF
+19
 -->
