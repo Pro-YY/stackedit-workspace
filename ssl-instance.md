@@ -26,13 +26,16 @@ ubuntu 18.04
 TODO
 
 4 配置nginx
+```
 yum install nginx
-
+# edit conf
+systemctl restart nginx.service
+```
 http2
 https
 ipv6
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0NTc4NjY3LC04NDcwMDA5MTYsMjEwMj
-IxMTIyMSwtMjY3Njk1NTY4XX0=
+eyJoaXN0b3J5IjpbMTU1NjUxOTkxMiwtODQ3MDAwOTE2LDIxMD
+IyMTEyMjEsLTI2NzY5NTU2OF19
 -->
