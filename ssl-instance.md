@@ -70,13 +70,12 @@ v1.3 openssl
 ```
 wget https://www.openssl.org/source/openssl-1.1.1b.tar.gz
 tar -zxvf openssl-1.1.1b.tar.gz
-cd openssl-1.1.1b
-./config
-make
 ```
+no need to compile alone, nginx will compile it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODI4ODgyODEsOTg2NDA0NjYsMTQ2Nz
-A1MDQyOSwxNDAyNzQxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUz
-MzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLT
-g0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
+eyJoaXN0b3J5IjpbNTc0MTExNjUzLC0xNzgyODg4MjgxLDk4Nj
+QwNDY2LDE0NjcwNTA0MjksMTQwMjc0MTI0MiwtMjE1ODc2Njcz
+LC0xOTU3MjI1MzMxLC0xNjYzMzAwNjQ2LDIyMzA4MjQ2MSwxNT
+U2NTE5OTEyLC04NDcwMDA5MTYsMjEwMjIxMTIyMSwtMjY3Njk1
+NTY4XX0=
 -->
