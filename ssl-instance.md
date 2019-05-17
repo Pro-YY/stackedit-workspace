@@ -45,9 +45,9 @@ verify chrome tools/extension
 
 nginx 1.12.2 no support for v1.3
 
-
+v1.13
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MzEzNzI5OCwyMjMwODI0NjEsMTU1Nj
-UxOTkxMiwtODQ3MDAwOTE2LDIxMDIyMTEyMjEsLTI2NzY5NTU2
-OF19
+eyJoaXN0b3J5IjpbLTE5OTk5MzA1NDMsMjIzMDgyNDYxLDE1NT
+Y1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1
+NjhdfQ==
 -->
