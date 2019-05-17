@@ -40,7 +40,10 @@ https://t1.ezouqi.com/(https://t1.ezouqi.com/)
 nginx conf server block
 ```
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMDgyNDYxLDE1NTY1MTk5MTIsLTg0Nz
-AwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
+eyJoaXN0b3J5IjpbLTE4NDk0MjMzMDMsMjIzMDgyNDYxLDE1NT
+Y1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1
+NjhdfQ==
 -->
