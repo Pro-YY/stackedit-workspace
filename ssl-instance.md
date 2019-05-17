@@ -50,10 +50,12 @@ v1.13
 
 nginx : 1.16.0 install
 ```
-wget http://nginx.org/download/nginx-1.16.0.tar.gz 
+wget http://nginx.org/download/nginx-1.16.0.tar.gz
+tar -zxvf nginx-1.16.0.tar.gz
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NT
-Y1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTE5NTcyMjUzMzEsLTE2NjMzMDA2NDYsMj
+IzMDgyNDYxLDE1NTY1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjEx
+MjIxLC0yNjc2OTU1NjhdfQ==
 -->
