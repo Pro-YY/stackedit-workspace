@@ -71,10 +71,12 @@ v1.3 openssl
 wget https://www.openssl.org/source/openssl-1.1.1b.tar.gz
 tar -zxvf openssl-1.1.1b.tar.gz
 cd openssl-1.1.1b
+./config
+make
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NDA0NjYsMTQ2NzA1MDQyOSwxNDAyNz
-QxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUzMzEsLTE2NjMzMDA2
-NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLTg0NzAwMDkxNiwyMT
-AyMjExMjIxLC0yNjc2OTU1NjhdfQ==
+eyJoaXN0b3J5IjpbLTE3ODI4ODgyODEsOTg2NDA0NjYsMTQ2Nz
+A1MDQyOSwxNDAyNzQxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUz
+MzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLT
+g0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
