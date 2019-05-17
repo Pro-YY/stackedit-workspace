@@ -22,10 +22,13 @@ time certbot certonly --standalone -n -m brookeyang@tencent.com --agree-tos -d t
 
 
 ubuntu 18.04
-
+TODO
 
 4 配置nginx
+yum install nginx
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzAzODQxODUsLTg0NzAwMDkxNiwyMT
+eyJoaXN0b3J5IjpbLTE3NzQyMzI0MzMsLTg0NzAwMDkxNiwyMT
 AyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
