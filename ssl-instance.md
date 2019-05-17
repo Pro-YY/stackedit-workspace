@@ -95,12 +95,38 @@ curl install
 ```
 
 # tls 1.2 vs 1.3
-v1.3 handh
+v1.3 handshake
+```
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384
+
+```
+
+v1.2 handshake
+```
+* TLSv1.2 (OUT), TLS handshake, Client hello (1):
+* TLSv1.2 (IN), TLS handshake, Server hello (2):
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+* TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTA5Mzg5OCwxODk5MTkyMTA3LDExNz
-I4MDUxNzUsLTg5OTgyNTAwMyw0MTkyMzUzMTcsLTE3NDkxMzAw
-Niw1NzQxMTE2NTMsLTE3ODI4ODgyODEsOTg2NDA0NjYsMTQ2Nz
-A1MDQyOSwxNDAyNzQxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUz
-MzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLT
-g0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwMTc0MjI2MjksMTg5OTE5MjEwNywxMT
+cyODA1MTc1LC04OTk4MjUwMDMsNDE5MjM1MzE3LC0xNzQ5MTMw
+MDYsNTc0MTExNjUzLC0xNzgyODg4MjgxLDk4NjQwNDY2LDE0Nj
+cwNTA0MjksMTQwMjc0MTI0MiwtMjE1ODc2NjczLC0xOTU3MjI1
+MzMxLC0xNjYzMzAwNjQ2LDIyMzA4MjQ2MSwxNTU2NTE5OTEyLC
+04NDcwMDA5MTYsMjEwMjIxMTIyMSwtMjY3Njk1NTY4XX0=
 -->
