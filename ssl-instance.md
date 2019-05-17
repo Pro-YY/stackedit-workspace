@@ -77,17 +77,23 @@ no need to compile alone, nginx will compile it
 
 install curl 
 
-NOTE: but curl need ssl to be make (no need to make install)
+NOTE: but curl need ssl to be make and install to an seperate dir
+
+like: /root/install/
 
 curl install
+
+[https://curl.haxx.se/docs/install.html](https://curl.haxx.se/docs/install.html)
+
 ```
-./configure --with-ssl
+./configure --with-ssl=/root/install/ssl
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjgwNTE3NSwtODk5ODI1MDAzLDQxOT
-IzNTMxNywtMTc0OTEzMDA2LDU3NDExMTY1MywtMTc4Mjg4ODI4
-MSw5ODY0MDQ2NiwxNDY3MDUwNDI5LDE0MDI3NDEyNDIsLTIxNT
-g3NjY3MywtMTk1NzIyNTMzMSwtMTY2MzMwMDY0NiwyMjMwODI0
-NjEsMTU1NjUxOTkxMiwtODQ3MDAwOTE2LDIxMDIyMTEyMjEsLT
-I2NzY5NTU2OF19
+eyJoaXN0b3J5IjpbLTE0MzY4NjQyOTAsMTE3MjgwNTE3NSwtOD
+k5ODI1MDAzLDQxOTIzNTMxNywtMTc0OTEzMDA2LDU3NDExMTY1
+MywtMTc4Mjg4ODI4MSw5ODY0MDQ2NiwxNDY3MDUwNDI5LDE0MD
+I3NDEyNDIsLTIxNTg3NjY3MywtMTk1NzIyNTMzMSwtMTY2MzMw
+MDY0NiwyMjMwODI0NjEsMTU1NjUxOTkxMiwtODQ3MDAwOTE2LD
+IxMDIyMTEyMjEsLTI2NzY5NTU2OF19
 -->
