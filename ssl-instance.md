@@ -54,6 +54,7 @@ yum install gcc pcre-devel zlib-devel openssl-devel
 wget http://nginx.org/download/nginx-1.16.0.tar.gz
 tar -zxvf nginx-1.16.0.tar.gz
 ./configure --with-http_v2_module --with-http_ssl_module
+./configure --with-http_v2_module --with-http_ssl_module --with-openssl=/root/openssl-1.1.1b
 make -j2
 make install
 
@@ -73,9 +74,9 @@ tar -zxvf openssl-1.1.1b.tar.gz
 ```
 no need to compile alone, nginx will compile it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MTExNjUzLC0xNzgyODg4MjgxLDk4Nj
-QwNDY2LDE0NjcwNTA0MjksMTQwMjc0MTI0MiwtMjE1ODc2Njcz
-LC0xOTU3MjI1MzMxLC0xNjYzMzAwNjQ2LDIyMzA4MjQ2MSwxNT
-U2NTE5OTEyLC04NDcwMDA5MTYsMjEwMjIxMTIyMSwtMjY3Njk1
-NTY4XX0=
+eyJoaXN0b3J5IjpbLTE3NDkxMzAwNiw1NzQxMTE2NTMsLTE3OD
+I4ODgyODEsOTg2NDA0NjYsMTQ2NzA1MDQyOSwxNDAyNzQxMjQy
+LC0yMTU4NzY2NzMsLTE5NTcyMjUzMzEsLTE2NjMzMDA2NDYsMj
+IzMDgyNDYxLDE1NTY1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjEx
+MjIxLC0yNjc2OTU1NjhdfQ==
 -->
