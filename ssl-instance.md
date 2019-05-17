@@ -73,10 +73,15 @@ wget https://www.openssl.org/source/openssl-1.1.1b.tar.gz
 tar -zxvf openssl-1.1.1b.tar.gz
 ```
 no need to compile alone, nginx will compile it
+
+
+but curl need ssl to be installed on /usr/local/ssl
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDkxMzAwNiw1NzQxMTE2NTMsLTE3OD
-I4ODgyODEsOTg2NDA0NjYsMTQ2NzA1MDQyOSwxNDAyNzQxMjQy
-LC0yMTU4NzY2NzMsLTE5NTcyMjUzMzEsLTE2NjMzMDA2NDYsMj
-IzMDgyNDYxLDE1NTY1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjEx
-MjIxLC0yNjc2OTU1NjhdfQ==
+eyJoaXN0b3J5IjpbLTExNTAzODgyNjAsLTE3NDkxMzAwNiw1Nz
+QxMTE2NTMsLTE3ODI4ODgyODEsOTg2NDA0NjYsMTQ2NzA1MDQy
+OSwxNDAyNzQxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUzMzEsLT
+E2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLTg0NzAw
+MDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
