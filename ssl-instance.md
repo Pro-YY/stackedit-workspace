@@ -55,11 +55,13 @@ tar -zxvf nginx-1.16.0.tar.gz
 yum install gcc pcre-devel zlib-devel openssl-devel
 
 ./configure --with-http_v2_module --with-http_ssl_module
+make -j2
+
 ```
 compile
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEwMjUyMzIsLTIxNTg3NjY3MywtMT
-k1NzIyNTMzMSwtMTY2MzMwMDY0NiwyMjMwODI0NjEsMTU1NjUx
-OTkxMiwtODQ3MDAwOTE2LDIxMDIyMTEyMjEsLTI2NzY5NTU2OF
-19
+eyJoaXN0b3J5IjpbOTIzNjQ4NTUzLC0yMTU4NzY2NzMsLTE5NT
+cyMjUzMzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5
+MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ
+==
 -->
