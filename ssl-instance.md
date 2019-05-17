@@ -46,8 +46,14 @@ verify chrome tools/extension
 nginx 1.12.2 no support for v1.3
 
 v1.13
+
+
+nginx : 1.16.0 install
+```
+wget http://nginx.org/download/nginx-1.16.0.tar.gz 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTk5MzA1NDMsMjIzMDgyNDYxLDE1NT
+eyJoaXN0b3J5IjpbLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NT
 Y1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1
 NjhdfQ==
 -->
