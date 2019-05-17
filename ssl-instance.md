@@ -43,9 +43,11 @@ nginx conf server block, 80 redirect
 
 verify chrome tools/extension
 
-nginx 1.12.2 no 
+nginx 1.12.2 no support for v1.3
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk3OTk3NTAsMjIzMDgyNDYxLDE1NT
-Y1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTk1MzEzNzI5OCwyMjMwODI0NjEsMTU1Nj
+UxOTkxMiwtODQ3MDAwOTE2LDIxMDIyMTEyMjEsLTI2NzY5NTU2
+OF19
 -->
