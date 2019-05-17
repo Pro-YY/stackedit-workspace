@@ -50,18 +50,17 @@ v1.13
 
 nginx : 1.16.0 install
 ```
+yum install gcc pcre-devel zlib-devel openssl-devel
 wget http://nginx.org/download/nginx-1.16.0.tar.gz
 tar -zxvf nginx-1.16.0.tar.gz
-yum install gcc pcre-devel zlib-devel openssl-devel
-
 ./configure --with-http_v2_module --with-http_ssl_module
 make -j2
-
+make install
 ```
 compile
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNjQ4NTUzLC0yMTU4NzY2NzMsLTE5NT
-cyMjUzMzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5
-MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ
-==
+eyJoaXN0b3J5IjpbMTQwMjc0MTI0MiwtMjE1ODc2NjczLC0xOT
+U3MjI1MzMxLC0xNjYzMzAwNjQ2LDIyMzA4MjQ2MSwxNTU2NTE5
+OTEyLC04NDcwMDA5MTYsMjEwMjIxMTIyMSwtMjY3Njk1NTY4XX
+0=
 -->
