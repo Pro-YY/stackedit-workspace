@@ -75,18 +75,19 @@ tar -zxvf openssl-1.1.1b.tar.gz
 no need to compile alone, nginx will compile it
 
 
-but curl need ssl to be make (no need to make install) on /usr/local/ssl
+install curl 
+
+NOTE: but curl need ssl to be make (no need to make install)
 
 curl install
-
 ```
 ./configure --with-ssl
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTgyNTAwMyw0MTkyMzUzMTcsLTE3ND
-kxMzAwNiw1NzQxMTE2NTMsLTE3ODI4ODgyODEsOTg2NDA0NjYs
-MTQ2NzA1MDQyOSwxNDAyNzQxMjQyLC0yMTU4NzY2NzMsLTE5NT
-cyMjUzMzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5
-MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ
-==
+eyJoaXN0b3J5IjpbMTE3MjgwNTE3NSwtODk5ODI1MDAzLDQxOT
+IzNTMxNywtMTc0OTEzMDA2LDU3NDExMTY1MywtMTc4Mjg4ODI4
+MSw5ODY0MDQ2NiwxNDY3MDUwNDI5LDE0MDI3NDEyNDIsLTIxNT
+g3NjY3MywtMTk1NzIyNTMzMSwtMTY2MzMwMDY0NiwyMjMwODI0
+NjEsMTU1NjUxOTkxMiwtODQ3MDAwOTE2LDIxMDIyMTEyMjEsLT
+I2NzY5NTU2OF19
 -->
