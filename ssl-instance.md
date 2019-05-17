@@ -15,14 +15,17 @@ A record: t1.ezouqi.com
 centos 7.5
 ```
 yum install certbot
-time certbot certonly --standalone -n -m brookeyang@tencent.com --agree-tos -d t1.ezouqi.com --dry-ru
+time certbot certonly --standalone -n -m brookeyang@tencent.com --agree-tos -d t1.ezouqi.com
 ```
+/etc/letsencrypt/live/t1.ezouqi.com/fullchain.pem
+/etc/letsencrypt/live/t1.ezouqi.com/privkey.pem
+
 
 ubuntu 18.04
 
 
 4 配置nginx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc5NzA0NzgsLTg0NzAwMDkxNiwyMT
+eyJoaXN0b3J5IjpbLTIwMzAzODQxODUsLTg0NzAwMDkxNiwyMT
 AyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
