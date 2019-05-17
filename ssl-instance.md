@@ -37,13 +37,15 @@ ipv6
 
 https://t1.ezouqi.com/(https://t1.ezouqi.com/)
 
-nginx conf server block
+nginx conf server block, 80 redirect
 ```
 ```
 
+verify chrome tools/extension
 
+nginx 1.12.2 no 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDk0MjMzMDMsMjIzMDgyNDYxLDE1NT
+eyJoaXN0b3J5IjpbLTE1MTk3OTk3NTAsMjIzMDgyNDYxLDE1NT
 Y1MTk5MTIsLTg0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1
 NjhdfQ==
 -->
