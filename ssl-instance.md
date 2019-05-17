@@ -52,12 +52,11 @@ nginx : 1.16.0 install
 ```
 wget http://nginx.org/download/nginx-1.16.0.tar.gz
 tar -zxvf nginx-1.16.0.tar.gz
-yum install gcc
-
+yum install gcc pcre-devel 
 ```
 compile
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjUxMDc4NywtMTk1NzIyNTMzMSwtMT
-Y2MzMwMDY0NiwyMjMwODI0NjEsMTU1NjUxOTkxMiwtODQ3MDAw
-OTE2LDIxMDIyMTEyMjEsLTI2NzY5NTU2OF19
+eyJoaXN0b3J5IjpbNDk4NDA2MjUwLC0xOTU3MjI1MzMxLC0xNj
+YzMzAwNjQ2LDIyMzA4MjQ2MSwxNTU2NTE5OTEyLC04NDcwMDA5
+MTYsMjEwMjIxMTIyMSwtMjY3Njk1NTY4XX0=
 -->
