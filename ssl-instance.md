@@ -74,6 +74,9 @@ tar -zxvf openssl-1.1.1b.tar.gz
 ```
 no need to compile alone, nginx will compile it
 
+# TODO later
+with openssl 1.1.1b for tlsv.1.3
+with http2
 
 install curl 
 
@@ -83,17 +86,21 @@ like: configure with prefix=/root/install/ssl
 
 curl install
 
+
 [https://curl.haxx.se/docs/install.html](https://curl.haxx.se/docs/install.html)
 
 ```
 ./configure --with-ssl=/root/install/ssl
 
 ```
+
+# tls 1.2 vs 1.3
+v1.3 handh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5OTE5MjEwNywxMTcyODA1MTc1LC04OT
-k4MjUwMDMsNDE5MjM1MzE3LC0xNzQ5MTMwMDYsNTc0MTExNjUz
-LC0xNzgyODg4MjgxLDk4NjQwNDY2LDE0NjcwNTA0MjksMTQwMj
-c0MTI0MiwtMjE1ODc2NjczLC0xOTU3MjI1MzMxLC0xNjYzMzAw
-NjQ2LDIyMzA4MjQ2MSwxNTU2NTE5OTEyLC04NDcwMDA5MTYsMj
-EwMjIxMTIyMSwtMjY3Njk1NTY4XX0=
+eyJoaXN0b3J5IjpbLTk4NTA5Mzg5OCwxODk5MTkyMTA3LDExNz
+I4MDUxNzUsLTg5OTgyNTAwMyw0MTkyMzUzMTcsLTE3NDkxMzAw
+Niw1NzQxMTE2NTMsLTE3ODI4ODgyODEsOTg2NDA0NjYsMTQ2Nz
+A1MDQyOSwxNDAyNzQxMjQyLC0yMTU4NzY2NzMsLTE5NTcyMjUz
+MzEsLTE2NjMzMDA2NDYsMjIzMDgyNDYxLDE1NTY1MTk5MTIsLT
+g0NzAwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
