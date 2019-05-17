@@ -35,8 +35,12 @@ http2
 https
 ipv6
 
-https://t1.ezouqi.com/
+https://t1.ezouqi.com/(https://t1.ezouqi.com/)
+
+nginx conf server block
+```
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc4MjU0ODMxLDE1NTY1MTk5MTIsLTg0Nz
+eyJoaXN0b3J5IjpbMjIzMDgyNDYxLDE1NTY1MTk5MTIsLTg0Nz
 AwMDkxNiwyMTAyMjExMjIxLC0yNjc2OTU1NjhdfQ==
 -->
